@@ -1,5 +1,5 @@
 ---
-title: Great ocean bunker services with a conscience
+title: BlueHarbor Fuels bunker services with a conscience
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
 blurb:
