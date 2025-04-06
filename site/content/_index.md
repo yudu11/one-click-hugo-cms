@@ -1,9 +1,9 @@
 ---
 title: BlueHarbor Fuels bunker services with a conscience
 subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+image: /img/ship-bunkering.png
 blurb:
-  heading: Why Great Ocean Bunker?
+  heading: Why BlueHarbor Bunker?
   text: Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
