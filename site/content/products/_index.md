@@ -1,7 +1,7 @@
 ---
-title: Our Coffee
+title: Our Services
 type: products
-image: /img/products-jumbotron.jpg
+image: /img/products-backgroup.png
 intro:
   heading: What we offer
   description: >-
