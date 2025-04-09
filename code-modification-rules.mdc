@@ -1,0 +1,48 @@
+# Code Modification Rules
+
+This document establishes clear guidelines for code modifications to ensure consistency, quality, and minimal disruption to the existing codebase. These rules apply to all code changes unless explicitly overridden for specific tasks.
+
+## Core Principles
+
+1. **Minimal Impact**: Make only necessary changes to achieve the stated goal.
+2. **Preserve Structure**: Maintain existing code organization, patterns, and naming conventions.
+3. **Maintain Context**: Understand the surrounding code before making changes.
+4. **Document Clearly**: Explain modifications with appropriate comments.
+
+## Change Guidelines
+
+### MUST
+- **Validate Before Changing**: Understand the full context of code before modifying it
+- **Follow Existing Patterns**: Match the style, structure, and naming conventions of the surrounding code
+- **Preserve Comments**: Keep existing comments that remain relevant
+- **Test Changes**: Ensure modifications don't break existing functionality
+- **Explain Reasoning**: Provide justification for significant changes
+
+### MUST NOT
+- **Don't Change Working Code**: Avoid modifying code that functions correctly unless specifically requested
+- **Don't Reformat**: Preserve existing formatting, indentation, and line breaks unless addressing formatting issues
+- **Don't Expand Scope**: Focus only on the requested changes
+- **Don't Remove Error Handling**: Preserve existing error handling logic
+
+### SHOULD
+- **Add Comments**: Provide clear documentation for new or complex code
+- **Improve Readability**: Make code more readable where possible without changing functionality
+- **Consider Edge Cases**: Address potential failure modes and boundary conditions
+
+## Workflow Process
+
+Before implementing any change:
+1. **Analyze Context**: Understand how the code fits within the larger system
+2. **Plan Modifications**: Outline the specific changes needed
+3. **Consider Alternatives**: Evaluate different approaches before implementation
+4. **Scope Minimally**: Identify the smallest change that will achieve the goal
+
+After implementing changes:
+1. **Review Modifications**: Verify changes meet requirements and follow these rules
+2. **Verify Completeness**: Ensure all requested features/fixes are implemented
+3. **Check for Regressions**: Confirm existing functionality remains intact
+4. **Summarize Changes**: Provide a clear summary of what was modified and why
+
+## Change Documentation Template
+
+When explaining changes, include: 
