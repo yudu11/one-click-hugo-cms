@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 190" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path fill="none" d="M0 0h240v190H0z"/>
+  <clipPath id="a"><path d="M0 0h240v190H0z"/></clipPath>
+  <g clip-path="url(#a)" fill="#0066A1">
+    <!-- Ship silhouette -->
+    <path d="M20 130h160v20H20z" fill-opacity=".3"/>
+    <path d="M40 110h120v20H40z" fill-opacity=".4"/>
+    <path d="M60 90h80v20H60z" fill-opacity=".5"/>
+    <path d="M70 90v60" stroke="#0066A1" stroke-width="4" fill="none"/>
+    <path d="M120 90v60" stroke="#0066A1" stroke-width="4" fill="none"/>
+    <path d="M180 130l40 20H160z" fill-opacity=".4"/>
+    
+    <!-- Fuel drop and elements -->
+    <path d="M160 50c0 11.046-8.954 20-20 20s-20-8.954-20-20c0-10 20-40 20-40s20 30 20 40z" fill-opacity=".6"/>
+    <path d="M140 70c-11.046 0-20-8.954-20-20 0-10 20-40 20-40s20 30 20 40c0 11.046-8.954 20-20 20zm0-60c-3.779 10.667-15 30.667-15 40 0 8.284 6.716 15 15 15s15-6.716 15-15c0-9.333-11.221-29.333-15-40z" fill-opacity=".3"/>
+    
+    <!-- Quality badge -->
+    <circle cx="70" cy="50" r="20" fill-opacity=".5"/>
+    <path d="M70 30l4.5 13.5H90l-12 9 4.5 13.5-12.5-9-12.5 9 4.5-13.5-12-9h15.5z" fill="#FFFFFF"/>
+    
+    <!-- Environmental leaf -->
+    <path d="M200 50c-10 0-20 10-20 20s10 20 20 20c10 0 20-10 20-20-10-10-10-20-20-20z" fill-opacity=".5"/>
+    <path d="M200 50c-10 0-20 10-20 20s10 20 20 20V50z" fill-opacity=".3"/>
+    <path d="M200 50v40c10 0 20-10 20-20-10-10-10-20-20-20z" fill-opacity=".6"/>
+    <path d="M195 65l5-5 5 5 5-5" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <!-- Supply chain - connecting dots -->
+    <circle cx="50" cy="130" r="5" fill-opacity=".8"/>
+    <circle cx="80" cy="130" r="5" fill-opacity=".8"/>
+    <circle cx="110" cy="130" r="5" fill-opacity=".8"/>
+    <circle cx="140" cy="130" r="5" fill-opacity=".8"/>
+    <path d="M50 130h90" stroke="#0066A1" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  </g>
+</svg> 

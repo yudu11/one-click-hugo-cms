@@ -1,35 +1,38 @@
 ---
-title: BlueHarbor Fuels bunker services with a conscience
-subtitle: Support sustainable farming while enjoying a cup
+title: BlueHarbor Trading - Your Maritime Fuel Partner
+subtitle: Your trusted ally for reliable and responsive bunkering solutions worldwide
 image: /img/ship-bunkering.png
 blurb:
-  heading: Why BlueHarbor Bunker?
-  text: Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  heading: Why Choose BlueHarbor Trading?
+  text: BlueHarbor Trading Pte Ltd is a premier bunker services provider committed to
+    delivering exceptional customer service and reliable fuel solutions. We understand
+    the critical nature of timely fuel delivery in maritime operations and pride
+    ourselves on our responsive approach, competitive pricing, and unwavering
+    commitment to quality.
 intro:
-  heading: What we offer
-  text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java's origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we're glad to pass that
-    knowledge to anyone.
+  heading: Our Services
+  text: At BlueHarbor Trading, we offer comprehensive bunker solutions tailored to
+    meet the unique needs of our diverse client base. Our experienced team works
+    around the clock to ensure seamless delivery and exceptional service,
+    supporting vessels of all types across major ports globally.
 products:
-  - image: img/illustrations-coffee.svg
-    text: We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We're proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you'll find a gadget to
-      fall in love with in our shop.
+  - image: img/illustrations-marine-fuel.svg
+    text: >-
+      We provide premium marine fuel products that meet international quality
+      standards and environmental regulations. Our extensive network of suppliers
+      allows us to secure competitive pricing while maintaining strict quality
+      control protocols to ensure compliance and optimal engine performance.
+  - image: img/illustrations-bunkering-service.svg
+    text: >-
+      Our client-focused bunkering services include real-time updates, flexible
+      scheduling, and transparent documentation. We handle all aspects of the
+      fueling process, from initial inquiry to post-delivery support, ensuring
+      a hassle-free experience for vessel operators and owners.
 values:
-  heading: Our values
-  text: Coffee is an amazing part of human culture but it has a dark side too –
-    one of colonialism and mindless abuse of natural resources and human lives.
-    We want to turn this around and return the coffee trade to the drink's
-    exhilarating, empowering and unifying nature.
+  heading: Our Core Values
+  text: BlueHarbor Trading is built on the foundations of reliability, integrity,
+    and excellence in service. We believe in building long-term relationships with
+    our clients through transparent practices, consistent quality, and unwavering
+    dedication to customer satisfaction. Our commitment to environmental responsibility
+    guides our operations as we work toward a more sustainable maritime industry.
 ---

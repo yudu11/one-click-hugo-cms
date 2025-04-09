@@ -1,0 +1,76 @@
+<svg viewBox="0 0 240 190" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path fill="none" d="M0 0h240v190H0z"/>
+  <clipPath id="a"><path d="M0 0h240v190H0z"/></clipPath>
+  <g clip-path="url(#a)" fill="#0066A1">
+    <!-- Digital dashboard/screen - SMALLER -->
+    <rect x="60" y="20" width="120" height="70" rx="5" fill-opacity=".2"/>
+    <rect x="65" y="25" width="110" height="55" rx="2" fill-opacity=".4"/>
+    
+    <!-- Charts/graphs for real-time updates -->
+    <path d="M70 60l15-10 20 8 15-20 20 12 15-8" stroke="#0066A1" stroke-width="2" fill="none"/>
+    <circle cx="85" cy="50" r="3" fill-opacity=".8"/>
+    <circle cx="105" cy="58" r="3" fill-opacity=".8"/>
+    <circle cx="120" cy="38" r="3" fill-opacity=".8"/>
+    <circle cx="140" cy="50" r="3" fill-opacity=".8"/>
+    <circle cx="155" cy="42" r="3" fill-opacity=".8"/>
+    
+    <!-- Calendar icon for scheduling -->
+    <rect x="75" y="30" width="25" height="4" fill-opacity=".6"/>
+    <rect x="75" y="34" width="25" height="15" fill-opacity=".6"/>
+    <path d="M80 30v-4 M87 30v-4 M95 30v-4" stroke="#0066A1" stroke-width="1" fill="none"/>
+    <path d="M80 38h15 M80 42h15 M80 45h8" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+    
+    <!-- Document icons for transparent documentation -->
+    <path d="M140 30h20v20h-20z" fill-opacity=".6"/>
+    <path d="M144 34h12 M144 38h12 M144 42h12 M144 46h8" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+    <path d="M138 32l20 20" stroke="#0066A1" stroke-width="1" fill="none"/>
+    
+    <!-- More realistic ship silhouette -->
+    <path d="M105 145h100v15h-100z" fill-opacity=".4"/>
+    <path d="M125 135h60v10h-60z" fill-opacity=".5"/>
+    <path d="M135 125h40v10h-40z" fill-opacity=".6"/>
+    <path d="M105 145c0-10 20-20 20-20h60c0 0 20 10 20 20" fill-opacity=".3"/>
+    <path d="M205 145l25 15h-125z" fill-opacity=".3"/>
+    <!-- Ship superstructure -->
+    <rect x="150" y="115" width="30" height="20" rx="2" fill-opacity=".5"/>
+    <rect x="155" y="105" width="20" height="10" rx="1" fill-opacity=".6"/>
+    <!-- Ship mast and details (removed cross/antenna) -->
+    <path d="M165 105v-10" stroke="#0066A1" stroke-width="2" fill="none"/>
+    <path d="M155 125h5 M170 125h5" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+    <path d="M140 135h5 M150 135h5 M160 135h5 M170 135h5" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+    <path d="M120 145h5 M140 145h5 M160 145h5 M180 145h5" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+    
+    <!-- Customer/Owner figure with briefcase -->
+    <circle cx="60" cy="130" r="10" fill-opacity=".7"/>
+    <path d="M60 140v15" stroke="#0066A1" stroke-width="4" fill="none"/>
+    <path d="M50 150h20" stroke="#0066A1" stroke-width="3" fill="none"/>
+    <path d="M50 155c0 0 5 10 10 10 5 0 10-10 10-10" fill-opacity=".6"/>
+    <!-- Briefcase -->
+    <rect x="55" y="155" width="10" height="8" rx="1" fill-opacity=".8"/>
+    <path d="M60 155v-3" stroke="#0066A1" stroke-width="1" fill="none"/>
+    
+    <!-- Mobile device for real-time updates - EVEN BIGGER -->
+    <rect x="75" y="80" width="25" height="45" rx="3" fill-opacity=".7"/>
+    <rect x="79" y="85" width="17" height="30" rx="1" fill="#FFFFFF" fill-opacity=".5"/>
+    <circle cx="87.5" cy="120" r="2.5" fill="#FFFFFF" fill-opacity=".7"/>
+    <path d="M82 90h11 M82 95h11 M82 100h11 M82 105h11" stroke="#0066A1" stroke-width="1" fill="none"/>
+    
+    <!-- Connection lines linking customer to phone to computer to vessel -->
+    <!-- Customer to phone -->
+    <path d="M65 125c5-10 10-15 15-30" stroke="#0066A1" stroke-width="1.5" stroke-dasharray="3,2" fill="none"/>
+    <circle cx="72" cy="107" r="2" fill-opacity=".8"/>
+    
+    <!-- Phone to computer -->
+    <path d="M100 90c10-20 30-30 40-40" stroke="#0066A1" stroke-width="1.5" stroke-dasharray="3,2" fill="none"/>
+    <circle cx="120" cy="70" r="2" fill-opacity=".8"/>
+    
+    <!-- Computer to vessel -->
+    <path d="M130 60c40 20 40 40 35 65" stroke="#0066A1" stroke-width="1.5" stroke-dasharray="3,2" fill="none"/>
+    <circle cx="150" cy="100" r="2" fill-opacity=".8"/>
+    
+    <!-- Support/communication symbols -->
+    <circle cx="100" cy="110" r="10" fill-opacity=".2"/>
+    <circle cx="100" cy="110" r="7" fill-opacity=".4"/>
+    <circle cx="100" cy="110" r="4" fill-opacity=".6"/>
+  </g>
+</svg> 

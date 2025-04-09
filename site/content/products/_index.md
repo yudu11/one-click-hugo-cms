@@ -1,96 +1,103 @@
 ---
-title: Our Services
+title: Our Services & Products
 type: products
 image: /img/products-backgroup.png
 intro:
-  heading: What we offer
+  heading: Comprehensive Bunkering Solutions
   description: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee production,
-    roasting and brewing seriously and we’re glad to pass that knowledge to
-    anyone.
+    BlueHarbor Trading provides premium marine fuel products and comprehensive bunkering
+    services tailored to meet the unique needs of vessel operators worldwide. Our focus 
+    on quality, reliability, and customer service makes us the preferred partner for all 
+    your maritime fuel requirements.
   blurbs:
-    - image: /img/illustrations-coffee.svg
+    - image: /img/illustrations-marine-fuel.svg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/illustrations-coffee-gear.svg
+        We supply a complete range of marine fuels that meet international standards
+        and environmental regulations, including Very Low Sulfur Fuel Oil (VLSFO),
+        Marine Gas Oil (MGO), and other compliant fuel options. Our extensive supplier 
+        network ensures competitive pricing while our stringent quality control protocols 
+        guarantee optimal engine performance.
+    - image: /img/illustrations-bunkering-service.svg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Our comprehensive bunkering services streamline the entire fueling process
+        from initial inquiry to delivery confirmation. We provide real-time updates,
+        flexible scheduling options, and complete documentation. Our experienced team
+        coordinates all aspects of the operation to ensure efficient, safe, and
+        compliant bunkering every time.
     - image: /img/illustrations-tutorials.svg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Navigating the complex and evolving world of marine fuel regulations can be
+        challenging. Our advisory services help vessel operators understand compliance
+        requirements, optimize fuel management strategies, and implement cost-effective
+        solutions. We provide personalized consultations to address your specific
+        operational needs and challenges.
     - image: /img/illustrations-meeting-space.svg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        As your dedicated bunkering partner, we offer customized solutions based on your
+        fleet's specific requirements. We analyze your operational patterns, fuel consumption,
+        and budget constraints to develop tailored strategies that optimize performance
+        while controlling costs. Our long-term partnerships are built on transparency,
+        reliability, and mutual success.
 main:
-  heading: Great coffee with no compromises
+  heading: Premium Marine Fuels with Unwavering Quality
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    At BlueHarbor Trading, we maintain the highest standards throughout the entire 
+    supply chain. Our meticulous attention to detail ensures that every delivery meets 
+    precise specifications and regulatory requirements. We perform regular testing and 
+    verification to guarantee fuel quality and provide detailed certificates of analysis 
+    with every delivery.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: A vessel during bunkering operations
     image: /img/products-grid3.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Marine fuel testing and quality control
     image: /img/products-grid2.jpg
   image3:
-    alt: Coffee beans
+    alt: Port facilities for marine fuel distribution
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Captain James Harrison, Fleet Manager
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      Since partnering with BlueHarbor Trading, we've experienced consistently 
+      reliable service and premium fuel quality. Their responsive team and 
+      transparent approach have significantly simplified our bunkering operations.
+  - author: Sarah Chen, Vessel Operations Director
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      BlueHarbor Trading stands out for their exceptional attention to detail 
+      and commitment to environmental compliance. Their proactive communication 
+      and flexible scheduling have been invaluable to our global fleet operations.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Flexible Pricing Options
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    We offer transparent and competitive pricing structures tailored to your operational 
+    needs. Whether you require spot purchases or prefer long-term supply agreements, 
+    our team will work with you to develop the most advantageous arrangement for your business.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Ideal for vessels requiring immediate or one-time bunkering services.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans
-        - One or two varieties of beans
-      plan: Small
-      price: '50'
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+        - Competitive market-based pricing
+        - No long-term commitment required
+        - Full quality assurance
+        - Complete documentation package
+      plan: Spot Purchase
+      price: 'Contact us'
+    - description: Perfect for regular operators with established routes and predictable fuel needs.
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Volume-based discounted rates
+        - Priority scheduling
+        - Dedicated account manager
+        - Regular fuel quality reports
+      plan: Term Contract
+      price: 'Contact us'
+    - description: Custom solutions for unique operational requirements or specialized vessels.
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
+        - Tailored to your specific needs
+        - Flexible delivery options
+        - Specialized fuel formulations available
+        - Comprehensive support services
+      plan: Custom Solution
+      price: 'Contact us'
 ---
 
 

@@ -1,45 +1,47 @@
 ---
-title: "Values"
+title: "Our Core Values"
 image: /img/about-jumbotron.jpg
 values:
-  - heading: "Shade-grown coffee"
+  - heading: "Reliability"
     text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
+      In the maritime industry, reliability is non-negotiable. Vessels operate on tight schedules,
+      and any delay in bunkering can cause significant disruptions and financial losses.
+      At BlueHarbor Trading, we've built our reputation on consistent, dependable service
+      that vessel operators can count on. Our meticulous planning and robust supply chain
+      ensure that we deliver the right fuel, in the right quantity, at the right time—every time.
     imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
+  - heading: "Integrity"
     text: >
-      Single-origin coffee is coffee grown within a single known
-      geographic origin. Sometimes, this is a single farm or a
-      specific collection of beans from a single country. The name of
-      the coffee is then usually the place it was grown to whatever
-      degree available.
+      Transparency and honesty form the backbone of our business practices. From accurate 
+      fuel specifications to clear documentation and straightforward pricing, we believe in
+      doing business with complete integrity. We adhere to the highest ethical standards in all
+      our operations, creating trust with our clients and partners. Our transparent approach 
+      means clients always know exactly what they're getting and at what cost.
     imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
+  - heading: "Excellence in Service"
     text: >
-      Sustainable agriculture is farming in sustainable ways based on
-      an understanding of ecosystem services, the study of
-      relationships between organisms and their environment. What
-      grows where and how it is grown are a matter of choice and
-      careful consideration for nature and communities.
+      We don't just meet expectations—we exceed them. Our client-centric approach means
+      we tailor our services to each client's specific needs. Our experienced team is available
+      24/7 to respond to inquiries, provide updates, and resolve any concerns promptly.
+      From initial consultation to post-delivery support, we maintain the highest standards
+      of professionalism and efficiency in every interaction.
     imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
+  - heading: "Quality Assurance"
     text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
+      We never compromise on quality. Our rigorous quality control protocols ensure that 
+      all marine fuels we supply meet international standards and regulatory requirements.
+      We work with trusted suppliers and conduct regular testing to maintain consistency
+      and performance. This commitment to quality helps our clients optimize engine
+      performance, reduce maintenance costs, and comply with increasingly stringent
+      environmental regulations.
     imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
+  - heading: "Environmental Responsibility"
     text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
+      As the maritime industry evolves toward a more sustainable future, we're committed
+      to being part of the solution. We actively work to reduce the environmental impact
+      of bunkering operations and offer compliant fuel options that help vessels meet
+      emission standards. Our team stays at the forefront of regulatory changes and emerging
+      technologies to help our clients navigate the transition to cleaner shipping with
+      confidence and efficiency.
     imageUrl: "/img/about-reinvest-profits.jpg"
 ---
