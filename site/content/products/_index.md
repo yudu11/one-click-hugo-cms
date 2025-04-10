@@ -1,10 +1,10 @@
 ---
-title: Our Services & Products
+title: Our Services
 type: products
 image: /img/products-backgroup.png
 intro:
   heading: Comprehensive Bunkering Solutions
-  description: >-
+  description: >- 
     BlueHarbor Trading provides premium marine fuel products and comprehensive bunkering
     services tailored to meet the unique needs of vessel operators worldwide. Our focus 
     on quality, reliability, and customer service makes us the preferred partner for all 
