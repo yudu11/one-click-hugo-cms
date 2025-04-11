@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ $title := "Latest stories" }}
+{{ if eq .Site.Language.Lang "zh" }}
+  {{ $title = "最新博客文章" }}
+{{ end }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" $title) }}
 
 <div class="mw7 center">
   <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">

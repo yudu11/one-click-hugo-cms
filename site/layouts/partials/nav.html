@@ -2,7 +2,7 @@
 
 	<!-- Logo -->
 	<div class="flex-ns items-center">
-		<a href="/" class="pa3 db mr4 h-100 w4 flex-none">
+		<a href="/{{ .Site.Language.Lang }}/" class="pa3 db mr4 h-100 w4 flex-none">
 			<img src="/img/logo.png" alt="BlueHarbor logo" class="br0 db mb0 w-100"/>
 		</a>
 	</div>
@@ -17,13 +17,91 @@
 	</div>
 
 	<ul class="flex b grey-3 nav-menu">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+		<li><a href="/{{ .Site.Language.Lang }}/products" class="pa3 no-underline db">{{ if eq .Site.Language.Lang "zh" }}产品{{ else }}Products{{ end }}</a></li>
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+		<li><a href="/{{ .Site.Language.Lang }}/values" class="pa3 no-underline db">{{ if eq .Site.Language.Lang "zh" }}价值观{{ else }}Values{{ end }}</a></li>
 
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
+		<li><a href="/{{ .Site.Language.Lang }}/post" class="pa3 no-underline db">{{ if eq .Site.Language.Lang "zh" }}博客{{ else }}Blog{{ end }}</a></li>
 
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
+		<li><a href="/{{ .Site.Language.Lang }}/contact" class="pa3 no-underline db">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact{{ end }}</a></li>
+		
+		<!-- Language Switcher - only shown if enabled in config -->
+		{{ if .Site.Params.showLanguageToggle }}
+		<li class="language-switcher">
+			<div class="language-toggle" id="language-toggle">
+				<a href="#" 
+				   onclick="switchLanguage('en'); return false;" 
+				   class="language-option{{ if eq .Site.Language.Lang "en" }} active{{ end }}" 
+				   id="lang-en">
+					EN
+				</a>
+				<a href="#" 
+				   onclick="switchLanguage('zh'); return false;" 
+				   class="language-option{{ if eq .Site.Language.Lang "zh" }} active{{ end }}" 
+				   id="lang-zh">
+					中文
+				</a>
+			</div>
+		</li>
+		{{ end }}
 	</ul>
 
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Get current page language from the body attribute
+			const currentPageLang = document.body.getAttribute('data-current-language');
+			
+			// Check if language toggle is enabled based on data attribute
+			const isLanguageToggleEnabled = document.body.getAttribute('data-show-language-toggle') === 'true';
+			
+			// If language toggle is disabled, always use English
+			// If enabled, use stored preference or default to English
+			const preferredLang = isLanguageToggleEnabled 
+				? localStorage.getItem('preferredLanguage') || 'en' 
+				: 'en';
+			
+			// Store the preference (if toggle is enabled)
+			if (isLanguageToggleEnabled) {
+				localStorage.setItem('preferredLanguage', preferredLang);
+			}
+			
+			// Check if we need to redirect to a different language version
+			if (preferredLang !== currentPageLang) {
+				redirectToLanguage(preferredLang);
+			}
+		});
+		
+		// Function to switch language
+		function switchLanguage(lang) {
+			// Save preference
+			localStorage.setItem('preferredLanguage', lang);
+			
+			// Redirect
+			redirectToLanguage(lang);
+		}
+		
+		// Function to redirect to the correct language version
+		function redirectToLanguage(lang) {
+			const path = window.location.pathname;
+			let newPath;
+			
+			// Split the path to get language and remainder
+			const pathParts = path.split('/').filter(Boolean);
+			const currentLang = pathParts[0];
+			const remainder = pathParts.slice(1).join('/');
+			
+			// If current language is detected, replace it
+			if (currentLang === 'en' || currentLang === 'zh') {
+				newPath = '/' + lang + '/' + remainder;
+			} else {
+				// If no language code in path, redirect to language homepage
+				newPath = '/' + lang + '/';
+			}
+			
+			// Redirect if we have a new path different from current path
+			if (newPath && newPath !== path) {
+				window.location.href = newPath;
+			}
+		}
+	</script>
 </nav>

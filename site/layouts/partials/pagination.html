@@ -2,14 +2,26 @@
  
 <nav class="cf pa3">
     {{ if .Paginator.HasNext }}
-    <a class="fl dib link dim black f6 f5-ns b pa2" title="Next Page" href="{{ .Paginator.Next.URL }}">
-        &larr; Previous
+    {{ $nextTitle := "Next Page" }}
+    {{ if eq $.Site.Language.Lang "zh" }}{{ $nextTitle = "下一页" }}{{ end }}
+    
+    {{ $prevLabel := "Previous" }}
+    {{ if eq $.Site.Language.Lang "zh" }}{{ $prevLabel = "上一页" }}{{ end }}
+    
+    <a class="fl dib link dim black f6 f5-ns b pa2" title="{{ $nextTitle }}" href="{{ .Paginator.Next.URL }}">
+        &larr; {{ $prevLabel }}
     </a>
     {{ end }}
     <div class="pagination">
         {{ if .Paginator.HasPrev }}
-        <a class="fl dib link dim black f6 f5-ns b pa2" title="Previous Page" href="{{ .Paginator.Prev.URL }}">
-            Next &rarr;
+        {{ $prevTitle := "Previous Page" }}
+        {{ if eq $.Site.Language.Lang "zh" }}{{ $prevTitle = "上一页" }}{{ end }}
+        
+        {{ $nextLabel := "Next" }}
+        {{ if eq $.Site.Language.Lang "zh" }}{{ $nextLabel = "下一页" }}{{ end }}
+        
+        <a class="fl dib link dim black f6 f5-ns b pa2" title="{{ $prevTitle }}" href="{{ .Paginator.Prev.URL }}">
+            {{ $nextLabel }} &rarr;
         </a>
         {{ end }}
     </div>

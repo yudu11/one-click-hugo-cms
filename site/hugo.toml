@@ -1,8 +1,43 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "BlueHarbor Trading Pte Ltd"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageCode = "en-us"
+    languageName = "English"
+    title = "BlueHarbor Trading Pte Ltd"
+    weight = 1
+  [languages.zh]
+    contentDir = "content/zh"
+    languageCode = "zh-cn"
+    languageName = "中文"
+    title = "蓝港贸易有限公司"
+    weight = 2
+
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
 images = ["img/og-image.jpg"]
+showLanguageToggle = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[mediaTypes]
+  [mediaTypes."text/noExt"]
+    suffixes = [""]
+    delimiter = ""
+
+[module]
+  [module.mounts]
+    source = "static"
+    target = "static"
+
+[outputFormats]
+  [outputFormats.REDIR]
+    mediaType = "text/noExt"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true

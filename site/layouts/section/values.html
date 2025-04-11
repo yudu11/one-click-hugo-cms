@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+{{ $title := .Title }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" $title) }}
 
 <div class="mw7 center ph3 pt4">
 

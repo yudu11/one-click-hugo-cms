@@ -1,12 +1,18 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ $title := .Title }}
+{{ $subtitle := .Params.subtitle }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" $title "subtitle" $subtitle) }}
 
 {{ partial "short-text" .Params.blurb}}
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ $buttonLink := "/en/values" }}
+{{ if eq .Site.Language.Lang "zh" }}
+  {{ $buttonLink = "/zh/values" }}
+{{ end }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" (i18n "readMore") "buttonLink" $buttonLink) }}
 
 {{ partial "blog" . }}
 

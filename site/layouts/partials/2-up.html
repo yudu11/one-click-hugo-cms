@@ -6,14 +6,14 @@
     <div class="flex-ns mhn2-ns mb3">
       {{ range .products }}
       <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
+        <img src="{{ if hasPrefix .image "/" }}{{ .image }}{{ else }}/{{ .image }}{{ end }}" alt="" class="center db mb3" style="width: 240px">
         <p>{{.text}}</p>
       </div>
       {{ end }}
     </div>
 
     <div class="tc">
-      <a href="/products" class="btn raise">See all products</a>
+      <a href="{{ if eq $.Site.Language.Lang "zh" }}/zh{{ end }}/products" class="btn raise">{{ if eq $.Site.Language.Lang "zh" }}查看所有产品{{ else }}See all products{{ end }}</a>
     </div>
   </div>
 </div>
