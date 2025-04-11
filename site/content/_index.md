@@ -1,5 +1,5 @@
 ---
-title: BlueHarbor Trading - Your Maritime Fuel Partner
+title: "BlueHarbor Trading<br>Your Maritime Fuel Partner"
 subtitle: Your trusted ally for reliable and responsive bunkering solutions worldwide
 image: /img/ship-bunkering.png
 blurb:
