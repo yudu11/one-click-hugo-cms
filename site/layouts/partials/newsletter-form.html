@@ -1,10 +1,43 @@
-<form action="" class="flex-ns mb3">
+<form id="newsletter-form" class="flex-ns mb3" onsubmit="return validateNewsletterEmail(event)">
 
   <fieldset class="flex-auto mb2 mb0-ns mr2-ns" name="newsletter" action="newsletter-subscribe">
-    <input type="text" id="email" placeholder="{{ if eq $.Site.Language.Lang "zh" }}您的邮箱{{ else }}Your email{{ end }}" class="w-100">
-    <label for="email">{{ if eq $.Site.Language.Lang "zh" }}您的邮箱{{ else }}Your email{{ end }}</label>
+    <input type="email" id="newsletter-email" placeholder="{{ if eq $.Site.Language.Lang "zh" }}您的邮箱{{ else }}Your email{{ end }}" class="w-100">
+    <label for="newsletter-email">{{ if eq $.Site.Language.Lang "zh" }}您的邮箱{{ else }}Your email{{ end }}</label>
   </fieldset>
 
   <button class="btn mb3 w-100 w-auto-ns mb0-ns raise" type="submit">{{ if eq $.Site.Language.Lang "zh" }}提交{{ else }}Submit{{ end }}</button>
 
 </form>
+
+<script>
+  function validateNewsletterEmail(event) {
+    event.preventDefault();
+    
+    const emailInput = document.getElementById('newsletter-email');
+    const emailValue = emailInput.value.trim();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    if (!emailRegex.test(emailValue)) {
+      // Get current language and show appropriate message
+      const currentLang = document.documentElement.lang || document.body.getAttribute('data-current-language') || 'en';
+      const errorMessage = currentLang === 'zh' 
+        ? "请输入有效的电子邮件地址。" 
+        : "Please enter a valid email address.";
+      
+      alert(errorMessage);
+      emailInput.focus();
+      return false;
+    }
+    
+    // If validation passes, you can submit the form
+    // For now, we'll just show a success message
+    const currentLang = document.documentElement.lang || document.body.getAttribute('data-current-language') || 'en';
+    const successMessage = currentLang === 'zh'
+      ? "谢谢您的订阅！"
+      : "Thank you for subscribing!";
+    
+    alert(successMessage);
+    emailInput.value = '';
+    return false; // Prevent form submission for this demo
+  }
+</script>

@@ -6,7 +6,7 @@ values:
     text: >
       In the maritime industry, reliability is non-negotiable. Vessels operate on tight schedules,
       and any delay in bunkering can cause significant disruptions and financial losses.
-      At BlueHarbor Trading, we've built our reputation on consistent, dependable service
+      At Blue Harbour, we've built our reputation on consistent, dependable service
       that vessel operators can count on. Our meticulous planning and robust supply chain
       ensure that we deliver the right fuel, in the right quantity, at the right time—every time.
     imageUrl: "/img/about-shade-grown.jpg"

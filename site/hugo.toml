@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir = true
     contentDir = "content"
     languageCode = "en-us"
     languageName = "English"
-    title = "BlueHarbor Trading Pte Ltd"
+    title = "Blue Harbour Pte Ltd"
     weight = 1
   [languages.zh]
     contentDir = "content/zh"

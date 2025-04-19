@@ -20,4 +20,20 @@ other = "Our Services"
 other = "Our Core Values"
 
 [latestStories]
-other = "Latest Stories" 
+other = "Latest Stories"
+
+# Contact form translations
+[contactFormHeading]
+other = "Drop us a line below"
+
+[name]
+other = "Name"
+
+[email]
+other = "Email"
+
+[message]
+other = "Your message"
+
+[submit]
+other = "Submit" 

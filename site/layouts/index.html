@@ -1,8 +1,10 @@
 {{ define "main" }}
 
-{{ $title := .Title }}
-{{ $subtitle := .Params.subtitle }}
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" $title "subtitle" $subtitle) }}
+{{ if eq .Site.Language.Lang "zh" }}
+  {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" "蓝港贸易<br>您的海事燃料合作伙伴" "subtitle" .Params.subtitle) }}
+{{ else }}
+  {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ end }}
 
 {{ partial "short-text" .Params.blurb}}
 

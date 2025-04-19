@@ -1,17 +1,17 @@
 ---
-title: "BlueHarbor Trading<br>Your Maritime Fuel Partner"
+title: "Blue Harbour<br>Your Maritime Fuel Partner"
 subtitle: Your trusted ally for reliable and responsive bunkering solutions worldwide
 image: /img/ship-bunkering.png
 blurb:
-  heading: Why Choose BlueHarbor Trading?
-  text: BlueHarbor Trading Pte Ltd is a premier bunker services provider committed to
+  heading: Why Choose Blue Harbour?
+  text: Blue Harbour Pte Ltd is a premier bunker services provider committed to
     delivering exceptional customer service and reliable fuel solutions. We understand
     the critical nature of timely fuel delivery in maritime operations and pride
     ourselves on our responsive approach, competitive pricing, and unwavering
     commitment to quality.
 intro:
   heading: Our Services
-  text: At BlueHarbor Trading, we offer comprehensive bunker solutions tailored to
+  text: At Blue Harbour, we offer comprehensive bunker solutions tailored to
     meet the unique needs of our diverse client base. Our experienced team works
     around the clock to ensure seamless delivery and exceptional service,
     supporting vessels of all types across major ports globally.
@@ -30,7 +30,7 @@ products:
       a hassle-free experience for vessel operators and owners.
 values:
   heading: Our Core Values
-  text: BlueHarbor Trading is built on the foundations of reliability, integrity,
+  text: Blue Harbour is built on the foundations of reliability, integrity,
     and excellence in service. We believe in building long-term relationships with
     our clients through transparent practices, consistent quality, and unwavering
     dedication to customer satisfaction. Our commitment to environmental responsibility

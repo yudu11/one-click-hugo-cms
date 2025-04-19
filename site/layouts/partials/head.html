@@ -1,6 +1,6 @@
 <head>
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+  <title>{{ if .IsHome }}{{ replace .Title "<br>" " - " | safeHTML }} | {{ $.Site.Title }}{{ else }}{{ .Title }} | {{ $.Site.Title }}{{ end }}</title>
 
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}

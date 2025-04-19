@@ -20,4 +20,20 @@ other = "我们的服务"
 other = "我们的核心价值"
 
 [latestStories]
-other = "最新动态" 
+other = "最新动态"
+
+# Contact form translations
+[contactFormHeading]
+other = "在下方给我们留言"
+
+[name]
+other = "姓名"
+
+[email]
+other = "电子邮箱"
+
+[message]
+other = "您的留言"
+
+[submit]
+other = "提交" 

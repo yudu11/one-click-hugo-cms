@@ -4,7 +4,7 @@
 
 		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.png" alt="BlueHarbor logo" class="db w4 center mb4 br0">
+			<img src="/img/logo.png" alt="Blue Harbour logo" class="db w4 center mb4 br0">
 			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
 			<p>{{ .Site.Data.footer.blurb }}</p>
 
@@ -15,31 +15,31 @@
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">BlueHarbor</h3>
+				<h3 class="f4 b lh-title mb1 primary">Blue Harbour</h3>
 				<ul class="mb3">
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/" class="link">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/products" class="link">{{ if eq .Site.Language.Lang "zh" }}产品{{ else }}Our products{{ end }}</a></li>
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/values" class="link">{{ if eq .Site.Language.Lang "zh" }}关于我们{{ else }}About{{ end }}</a></li>
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/post" class="link">{{ if eq .Site.Language.Lang "zh" }}博客{{ else }}Blog{{ end }}</a></li>
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/contact" class="link">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/" class="link">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/products" class="link">{{ if eq .Site.Language.Lang "zh" }}产品{{ else }}Our products{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/values" class="link">{{ if eq .Site.Language.Lang "zh" }}关于我们{{ else }}About{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/post" class="link">{{ if eq .Site.Language.Lang "zh" }}博客{{ else }}Blog{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/contact" class="link">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact{{ end }}</a></li>
 				</ul>
 			</div>
 
 			<div>
 				<h3 class="f4 b lh-title mb1 primary">{{ if eq .Site.Language.Lang "zh" }}了解更多{{ else }}Find out more{{ end }}</h3>
 				<ul class="mb3">
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/post/jamaica-blue/" class="link">{{ if eq .Site.Language.Lang "zh" }}最新优惠{{ else }}Latest offers{{ end }}</a></li>
-					<li><a href="{{ if eq .Site.Language.Lang "zh" }}/zh{{ end }}/contact" class="link">{{ if eq .Site.Language.Lang "zh" }}预约{{ else }}Schedule an appointment{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/post/bunkering-strategies/" class="link">{{ if eq .Site.Language.Lang "zh" }}船舶加油策略{{ else }}Bunkering Strategies{{ end }}</a></li>
+					<li><a href="/{{ .Site.Language.Lang }}/contact" class="link">{{ if eq .Site.Language.Lang "zh" }}预约{{ else }}Schedule an appointment{{ end }}</a></li>
 				</ul>
 			</div>
 
 			<div>
 				<h3 class="f4 b lh-title mb2 primary">{{ if eq .Site.Language.Lang "zh" }}社交媒体{{ else }}Social media{{ end }}</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "BlueHarbor on Facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "BlueHarbor on Twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "BlueHarbor on Instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "BlueHarbor on Vimeo") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Blue Harbour on Facebook") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Blue Harbour on Twitter") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Blue Harbour on Instagram") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Blue Harbour on Vimeo") }}
 				</ul>
 			</div>
 

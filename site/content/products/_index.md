@@ -5,7 +5,7 @@ image: /img/products-backgroup.png
 intro:
   heading: Comprehensive Bunkering Solutions
   description: >- 
-    BlueHarbor Trading provides premium marine fuel products and comprehensive bunkering
+    Blue Harbour provides premium marine fuel products and comprehensive bunkering
     services tailored to meet the unique needs of vessel operators worldwide. Our focus 
     on quality, reliability, and customer service makes us the preferred partner for all 
     your maritime fuel requirements.
@@ -41,7 +41,7 @@ intro:
 main:
   heading: Premium Marine Fuels with Unwavering Quality
   description: >
-    At BlueHarbor Trading, we maintain the highest standards throughout the entire 
+    At Blue Harbour, we maintain the highest standards throughout the entire 
     supply chain. Our meticulous attention to detail ensures that every delivery meets 
     precise specifications and regulatory requirements. We perform regular testing and 
     verification to guarantee fuel quality and provide detailed certificates of analysis 
@@ -58,12 +58,12 @@ main:
 testimonials:
   - author: Captain James Harrison, Fleet Manager
     quote: >-
-      Since partnering with BlueHarbor Trading, we've experienced consistently 
+      Since partnering with Blue Harbour, we've experienced consistently 
       reliable service and premium fuel quality. Their responsive team and 
       transparent approach have significantly simplified our bunkering operations.
   - author: Sarah Chen, Vessel Operations Director
     quote: >-
-      BlueHarbor Trading stands out for their exceptional attention to detail 
+      Blue Harbour stands out for their exceptional attention to detail 
       and commitment to environmental compliance. Their proactive communication 
       and flexible scheduling have been invaluable to our global fleet operations.
 full_image: /img/products-full-width.jpg
